@@ -1,5 +1,5 @@
-import { footerLinks, languages } from '@/appData'
-import { socials } from '@/appData/personal'
+// import { footerLinks, languages } from '@/appData'
+// import { socials } from '@/appData/personal'
 import Logo from '../Navbar/Logo'
 
 const Footer = () => {
