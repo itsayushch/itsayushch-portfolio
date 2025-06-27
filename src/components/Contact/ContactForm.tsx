@@ -32,7 +32,7 @@ const ContactForm = () => {
     
     if (res.status === 200) {
       setLoading(false)
-      toast.info(data.message)
+      toast.success(data.message)
     } else {
       setLoading(false)
       toast.error(data.message)
@@ -75,6 +75,7 @@ const ContactForm = () => {
         pauseOnFocusLoss={false}
         draggable
         theme="colored"
+        pauseOnHover={false}
         transition={Bounce}
       />
     </>

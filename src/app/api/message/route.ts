@@ -27,7 +27,7 @@ export async function POST(request: Request) {
   const { name, email, message } = await request.json()
 
   const embed = {
-    color: 0x18f2e5,
+    color: Number("0x" + ((1 << 24) * Math.random() | 0).toString(16).padStart(6, "0")),
     author: {
       name: 'New Message',
       icon_url:
@@ -54,12 +54,10 @@ export async function POST(request: Request) {
     {
       embeds: [embed],
     },
-  )
-
-  // response status check whether it lies in 200-299 range
-  if (res.status <= 200 && res.status > 300) {
-    return NextResponse.json({ message: 'Failed to send message!' }, { status: 500 })
-  }
+  ).catch((error) => {
+    console.error('Error sending message to Discord:', error)
+    return NextResponse.json({ message: 'Internal Server Error!' }, { status: 500 })
+  })
 
   return NextResponse.json(
     {

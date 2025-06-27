@@ -1,9 +1,9 @@
 {
   "priority": 2,
-  "title": "Codevertiser",
-  "shortDescription": "A programming related article site to share my learnings",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
-  "livePreview": "https://example.com/beta",
-  "visitors": "8K Visitors",
-  "earned": "$400 Earned"
+  "title": "clan‑management",
+  "shortDescription": "A web app to track and manage clan war strikes for Clash of Clans.",
+  "cover": "https://placehold.jp/30/dd6699/ffffff/400x200.png?text=Clan+Management",
+  "livePreview": "",
+  "type": "Web Application",
+  "siteAge": "1 year old"
 }

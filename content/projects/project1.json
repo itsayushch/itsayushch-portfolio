@@ -1,9 +1,9 @@
 {
   "priority": 1,
-  "title": "Color Contrast Collection",
-  "shortDescription": "Curated Background with Text colors contrast, help you to pick best contrast for your websites",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1645090814/color-contrast_n598kw.png",
-  "livePreview": "https://example.com/alpha",
-  "type": "Client Work 🙍‍♂️",
-  "siteAge": "1 month old"
+  "title": "musico‑2.0",
+  "shortDescription": "A Discord bot offering high‑quality music playback and leveling system.",
+  "cover": "https://placehold.jp/30/dd6699/ffffff/400x200.png?text=Musico+2.0", 
+  "livePreview": "",
+  "type": "Open Source Bot",
+  "siteAge": "6 months old"
 }
