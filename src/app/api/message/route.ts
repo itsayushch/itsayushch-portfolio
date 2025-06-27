@@ -7,7 +7,7 @@ export async function POST(request: Request) {
 
   const { success, remaining, reset } = rateLimit(ip)
 
-  if (!request.url.includes(process.env.NEXT_PUBLIC_SITE_URl!)) {
+  if (!request.url.includes(process.env.NEXT_PUBLIC_SITE_URL!)) {
     return NextResponse.json({ message: 'Invalid request URL' }, { status: 400 })
   }
 

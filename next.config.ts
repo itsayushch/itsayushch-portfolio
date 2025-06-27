@@ -2,6 +2,9 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
+  reactComponentAnnotation: {
+    enabled: process.env.NODE_ENV === 'development',
+  },
 
   images: {
     remotePatterns: [
@@ -38,7 +41,7 @@ const nextConfig: NextConfig = {
         hostname: 'cdn.jsdelivr.net',
         port: '',
         pathname: '/**',
-      }
+      },
     ],
   },
 }
