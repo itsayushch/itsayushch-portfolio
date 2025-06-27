@@ -49,8 +49,7 @@ export async function POST(request: Request) {
     timestamp: new Date().toISOString(),
   }
 
-  const res = await axios.post(
-    'https://discord.com/api/webhooks/1388187626418344096/9qGDiJFoEjkCLvOYK6GnYyA1l53w1RZO4zs7rxtZ5nralZ2mbEp5O-7qS3GGsOwmXNkJ',
+  await axios.post(process.env.WEBHOOK_URL!,
     {
       embeds: [embed],
     },
