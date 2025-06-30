@@ -29,13 +29,7 @@ export const metadata: Metadata = {
     url,
     siteName: 'Ayush Chowdhury Portfolio',
     type: 'website',
-  },
-  twitter: {
-    title,
-    description,
-    card: 'summary_large_image',
-    creator: '@Basit_Miyanji',
-  },
+  }
 }
 
 export default function RootLayout({
