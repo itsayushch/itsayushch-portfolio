@@ -1,5 +1,6 @@
 // import { footerLinks, languages } from '@/appData'
 // import { socials } from '@/appData/personal'
+import { GithubIcon } from '@/utils/icons'
 import Logo from '../Navbar/Logo'
 
 const Footer = () => {
@@ -7,52 +8,46 @@ const Footer = () => {
     <footer className="bg-secondary w-full py-14">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
-            <div className="animate-fade-up text-primary-content relative flex justify-center items-center gap-3 transition-all duration-300 md:static">
-              <Logo />
-              <h4 className="text-accent text-2xl font-semibold md:text-3xl">Ayush Chowdhury</h4>
-            </div>
+          <div className="animate-fade-up text-primary-content relative flex items-center justify-center gap-3 transition-all duration-300 md:static">
+            <Logo />
+            <h4 className="text-accent text-2xl font-semibold md:text-3xl">Ayush Chowdhury</h4>
+          </div>
 
-          <ul className="mb-10 flex flex-col items-center justify-center gap-7 border-b border-gray-200 py-16 text-lg transition-all duration-500 md:flex-row md:gap-12">
+          <ul className="border-neutral mb-10 flex flex-col items-center justify-center gap-7 border-b py-16 text-lg transition-all duration-500 md:flex-row md:gap-12">
             <li>
               <a
                 href="#"
                 className="text-neutral transition-color hover:text-neutral/50 h-full w-full duration-300">
-                Pagedone
+                Home
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#services"
                 className="text-neutral transition-color hover:text-neutral/50 h-full w-full duration-300">
-                Products
+                Services
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#contact"
                 className="text-neutral transition-color hover:text-neutral/50 h-full w-full duration-300">
-                Resources
+                Contact
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#projects"
                 className="text-neutral transition-color hover:text-neutral/50 h-full w-full duration-300">
-                Blogs
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-neutral transition-color hover:text-neutral/50 h-full w-full duration-300">
-                Support
+                Projects
               </a>
             </li>
           </ul>
           <div className="mb-14 flex items-center justify-center space-x-10">
             <a
-              href="#"
-              className="block text-gray-900 transition-all duration-500 hover:text-indigo-600">
+              href="https://x.com/itsayushch"
+              target="_blank"
+              className="text-neutral hover:text-accent block transition-all duration-500">
               <svg
                 className="h-[1.688rem] w-[1.688rem]"
                 xmlns="http://www.w3.org/2000/svg"
@@ -65,8 +60,9 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="#"
-              className="block text-gray-900 transition-all duration-500 hover:text-indigo-600">
+              href="https://instagram.com/itsayushch"
+              target="_blank"
+              className="text-neutral hover:text-accent block transition-all duration-500">
               <svg
                 className="h-[1.688rem] w-[1.688rem]"
                 viewBox="0 0 29 29"
@@ -78,34 +74,25 @@ const Footer = () => {
                 />
               </svg>
             </a>
+
             <a
-              href="#"
-              className="block text-gray-900 transition-all duration-500 hover:text-indigo-600">
-              <svg
-                className="h-[1.625rem] w-[0.938rem]"
-                viewBox="0 0 15 26"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M13.7926 14.4697L14.5174 9.86889H10.0528V6.87836C10.0528 5.62033 10.6761 4.39105 12.6692 4.39105H14.7275V0.473179C13.5289 0.282204 12.3177 0.178886 11.1037 0.164062C7.42917 0.164062 5.0302 2.37101 5.0302 6.36077V9.86889H0.957031V14.4697H5.0302V25.5979H10.0528V14.4697H13.7926Z"
-                  fill="currentColor"
-                />
-              </svg>
+              href="https://github.com/itsayushch"
+              target="_blank"
+              className="text-neutral hover:text-accent block transition-all duration-500">
+              <GithubIcon className="h-[1.688rem] w-[1.688rem]" />
             </a>
             <a
-              href="#"
-              className="block text-gray-900 transition-all duration-500 hover:text-indigo-600">
+              href="https://linkedin.com/in/itsayushch/"
+              target="_blank"
+              className="text-neutral hover:text-accent block transition-all duration-500">
               <svg
-                className="h-[1.375rem] w-[1.875rem]"
-                viewBox="0 0 30 22"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M26.3106 1.27838C27.5782 1.62071 28.5745 2.61957 28.9113 3.88573C29.524 6.18356 29.524 10.9809 29.524 10.9809C29.524 10.9809 29.524 15.7782 28.9113 18.076C28.5698 19.3469 27.5735 20.3457 26.3106 20.6834C24.0186 21.2977 14.8226 21.2977 14.8226 21.2977C14.8226 21.2977 5.63122 21.2977 3.33456 20.6834C2.06695 20.3411 1.07063 19.3422 0.73385 18.076C0.121094 15.7782 0.121094 10.9809 0.121094 10.9809C0.121094 10.9809 0.121094 6.18356 0.73385 3.88573C1.07531 2.61488 2.07162 1.61602 3.33456 1.27838C5.63122 0.664062 14.8226 0.664062 14.8226 0.664062C14.8226 0.664062 24.0186 0.664062 26.3106 1.27838ZM19.5234 10.9809L11.885 15.403V6.55872L19.5234 10.9809Z"
-                  fill="currentColor"
-                />
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-[1.688rem] w-[1.688rem]"
+                version="1.1"
+                id="Layer_1"
+                fill="currentColor"
+                viewBox="0 0 382 382">
+                <path d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889  C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056  H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806  c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1  s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73  c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079  c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426  c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472  L341.91,330.654L341.91,330.654z" />
               </svg>
             </a>
           </div>
@@ -117,6 +104,5 @@ const Footer = () => {
     </footer>
   )
 }
-
 
 export default Footer

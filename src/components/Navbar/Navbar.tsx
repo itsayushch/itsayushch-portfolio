@@ -37,7 +37,7 @@ const Navbar = () => {
     <nav className="bg-primary border-border h-16 overflow-hidden border-b">
       <div className="mx-auto flex h-full w-dvw max-w-[1200px] items-center justify-between px-4 py-1">
         {isVisible ? (
-          <div className="text-primary-content md:hidden">_menu</div>
+          <div className="text-accent md:hidden">MENU</div>
         ) : (
           <Link href="/">
             <div className="animate-fade-up text-primary-content relative flex items-center gap-3 transition-all duration-300 md:static">

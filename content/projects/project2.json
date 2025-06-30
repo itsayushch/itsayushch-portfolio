@@ -1,9 +1,10 @@
 {
   "priority": 2,
-  "title": "clan‑management",
+  "title": "Clan Management",
   "shortDescription": "A web app to track and manage clan war strikes for Clash of Clans.",
   "cover": "https://placehold.jp/30/dd6699/ffffff/400x200.png?text=Clan+Management",
-  "livePreview": "",
+  "livePreview": "https://illuminati-sage.vercel.app/",
   "type": "Web Application",
-  "siteAge": "1 year old"
+  "siteAge": "1 year old",
+  "githubLink": "https://github.com/itsayushch/clan-management"
 }

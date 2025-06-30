@@ -1,0 +1,10 @@
+  {
+    "priority": 4,
+    "title": "Quizora",
+    "shortDescription": "A customizable React quiz app fetching questions from Open Trivia DB.",
+    "cover": "https://placehold.jp/30/dd6699/ffffff/300x150.png?text=Quiz+App",
+    "livePreview": "https://quiz-ayushkr-me.vercel.app/",
+    "type": "Web Application",
+    "siteAge": "2 years old",
+    "githubLink": "https://github.com/itsayushch/quiz-app"
+  }

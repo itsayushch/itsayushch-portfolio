@@ -1,9 +1,10 @@
 {
   "priority": 1,
-  "title": "musico‑2.0",
+  "title": "Musico 2.0",
   "shortDescription": "A Discord bot offering high‑quality music playback and leveling system.",
   "cover": "https://placehold.jp/30/dd6699/ffffff/400x200.png?text=Musico+2.0", 
   "livePreview": "",
   "type": "Open Source Bot",
-  "siteAge": "6 months old"
+  "siteAge": "6 months old",
+  "githubLink": "https://github.com/itsayushch/musico-2.0"
 }

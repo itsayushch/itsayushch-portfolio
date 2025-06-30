@@ -1,9 +1,10 @@
 {
   "priority": 3,
-  "title": "full‑stack‑blog",
-  "shortDescription": "A full‑stack blogging platform built with Next.js & Prisma.",
+  "title": "Full-Stack Blog",
+  "shortDescription": "A full‑stack blogging platform built with Next.js & MongoDB.",
   "cover": "https://placehold.jp/30/dd6699/ffffff/400x200.png?text=Fullstack+Blog",
-  "livePreview": "",
+  "livePreview": "https://ayush-blog.vercel.app/",
   "type": "Web Application",
-  "siteAge": "3 years old"
+  "siteAge": "3 years old",
+  "githubLink": "https://github.com/itsayushch/fullstack-blog"
 }
